@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Quikpix</title>
+  <title>Miriti Media</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +20,17 @@
 
   <!-- Custom styles for this template -->
   <link href="css/grayscale.min.css" rel="stylesheet">
+	
+	<style>
+		.carousel-inner {
+			width: auto;
+			height: 560px;
+		}
+		
+		.video-fluid {
+			padding: 0px 0px 0px 0px;
+		}
+	</style>
 
 </head>
 
@@ -28,7 +39,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Quikpix</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Miriti Media</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -53,8 +64,8 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-uppercase">Grayscale</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+        <h1 class="mx-auto my-0 text-uppercase">Miriti Media</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Photography, Videography, Media Content Creators.</h2>
         <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
       </div>
     </div>
@@ -65,12 +76,57 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Built with Bootstrap 4</h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+          <h2 class="text-white mb-4">What We Do.</h2>
+          <p class="text-white-50">We use state-of-the-art cameras, drones, and skilled editing to provide you with the best media content for your online business platforms. Visit 
+            <a href="https://www.instagram.com/lmiriti/">Leon Miriti's </a> portfolio for contacts.</p>
         </div>
       </div>
-      <img src="img/ipad.png" class="img-fluid" alt="">
+      <!--Carousel Wrapper-->
+	<div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+	  <!--Indicators-->
+	  <ol class="carousel-indicators">
+		<li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+		<li data-target="#video-carousel-example" data-slide-to="1"></li>
+		<li data-target="#video-carousel-example" data-slide-to="2"></li>
+		<li data-target="#video-carousel-example" data-slide-to="3"></li>
+	  </ol>
+	  <!--/.Indicators-->
+	  <!--Slides-->
+	  <div class="carousel-inner" role="listbox">
+		<div class="carousel-item active">
+		  <video class="video-fluid" autoplay loop muted>
+			<source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+		  </video>
+		</div>
+		<div class="carousel-item">
+		  <video class="video-fluid" autoplay loop muted>
+			<source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4" />
+		  </video>
+		</div>
+		<div class="carousel-item">
+		  <video class="video-fluid container-fluid" autoplay loop muted>
+			<source src="castle.mp4" type="video/mp4" />
+		  </video>
+		</div>
+		<div class="carousel-item">
+		  <video class="video-fluid container-fluid" autoplay loop muted>
+			<source src="vineyard.mp4" type="video/mp4" />
+		  </video>
+		</div>
+	  </div>
+	  <!--/.Slides-->
+	  <!--Controls-->
+	  <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Previous</span>
+	  </a>
+	  <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Next</span>
+	  </a>
+	  <!--/.Controls-->
+	</div>
+	<!--Carousel Wrapper-->
     </div>
   </section>
 
@@ -81,27 +137,46 @@
       <!-- Featured Project Row -->
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/bg-masthead.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="IMG_4180.jpg" alt="">
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <h4>DJI Mavic 2 Zoom</h4>
+            <p class="text-black-50 mb-0">We just got our hands on a new drone for the best aerial photography and cinematography</p>
           </div>
         </div>
       </div>
 
       <!-- Project One Row -->
+	  <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <video class="video-fluid container-fluid" autoplay loop muted>
+			<source src="atlworldIntro.mp4" type="video/mp4" />
+		  </video>
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Video Interview for ATL World</h4>
+                <p class="mb-0 text-white-50">We recently worked with ATL World, a natural supplement company that deals with natural food supplemets. See  <a href="https://atlworld.com/blog/">atlworld.com </a> for the full interview</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <!--project two row --> 	
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
+          <img class="img-fluid" src="IMG_3538.jpg" alt="">
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
+                <h4 class="text-white">Events</h4>
+                <p class="mb-0 text-white-50">Business events, family events, arts and cultural events, and parties.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -109,23 +184,59 @@
         </div>
       </div>
 
-      <!-- Project Two Row -->
+      <!-- Project three Row -->
       <div class="row justify-content-center no-gutters">
         <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+          <img class="img-fluid" src="DJI_0008-2.jpg" alt="">
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
+                <h4 class="text-white">Real Estate</h4>
+                <p class="mb-0 text-white-50">Get different persperctives of your real estate with our new drone DJI Mavic 2 Zoom.</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
         </div>
       </div>
+		
+	<!--Project four row-->
+		<div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+			<div class="col-lg-6">
+			  <img class="img-fluid" src="IMG_3550.jpg" alt="">
+			</div>
+			<div class="col-lg-6">
+			  <div class="bg-black text-center h-100 project">
+				<div class="d-flex h-100">
+				  <div class="project-text w-100 my-auto text-center text-lg-left">
+					<h4 class="text-white">Brand Positioning</h4>
+					<p class="mb-0 text-white-50">Media marketing through creative photography and videography.</p>
+					<hr class="d-none d-lg-block mb-0 ml-0">
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		
+		<!--Project five row -->
+		<div class="row justify-content-center no-gutters">
+			<div class="col-lg-6">
+			  <img class="img-fluid" src="model.jpg" alt="">
+			</div>
+			<div class="col-lg-6 order-lg-first">
+			  <div class="bg-black text-center h-100 project">
+				<div class="d-flex h-100">
+				  <div class="project-text w-100 my-auto text-center text-lg-right">
+					<h4 class="text-white">Modeling</h4>
+					<p class="mb-0 text-white-50">Classic modeling, business headshots, staff photoshoots.</p>
+					<hr class="d-none d-lg-block mb-0 mr-0">
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
 
     </div>
   </section>
@@ -137,11 +248,11 @@
         <div class="col-md-10 col-lg-8 mx-auto text-center">
 
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+          <h2 class="text-white mb-5">Book your event!</h2>
 
           <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address to book...">
+            <button type="submit" class="btn btn-primary mx-auto">Book</button>
           </form>
 
         </div>
@@ -161,7 +272,7 @@
               <i class="fas fa-map-marked-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Address</h4>
               <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+              <div class="small text-black-50">Based in Bologna, Italy</div>
             </div>
           </div>
         </div>
@@ -173,7 +284,7 @@
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-                <a href="#">hello@yourdomain.com</a>
+                <a href="#">leonnjiru@gmail.com</a>
               </div>
             </div>
           </div>
@@ -185,7 +296,7 @@
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
+              <div class="small text-black-50">+39 (328) 171-7739</div>
             </div>
           </div>
         </div>
@@ -198,8 +309,8 @@
         <a href="#" class="mx-2">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-github"></i>
+        <a href="https://www.instagram.com/lmiriti/" class="mx-2">
+          <i class="fab fa-instagram"></i>
         </a>
       </div>
 
@@ -209,7 +320,7 @@
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      Copyright &copy; Your Website 2019
+      Copyright &copy; Miriti Media 2019
     </div>
   </footer>
 
@@ -226,3 +337,4 @@
 </body>
 
 </html>
+
